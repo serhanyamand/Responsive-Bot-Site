@@ -30,7 +30,7 @@ Basitçe Dosyaya Tıklayın ve Tarayıcıyla açın
 👤 **serhanyamand**
 
 * Youtube: https://www.youtube.com/channel/UCYfguXG4mfgfmLhACJkVPlA
-* Website: https://beastprofile.tr.ht
+* Website: http://beastprofile.tr.ht
 * Github: [@serhanyamand](https://github.com/serhanyamand)
 
 
