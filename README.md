@@ -27,11 +27,11 @@ Basitçe Dosyaya Tıklayın ve Tarayıcıyla açın
 
 ## Yapımcılar
 
-👤 **Mitszy**
+👤 **serhanyamand**
 
 * Youtube: https://www.youtube.com/channel/UCYfguXG4mfgfmLhACJkVPlA
 * Website: https://beastprofile.tr.ht
-* Github: [@mitszy](https://github.com/mitszy)
+* Github: [@mitszy](https://github.com/serhanyamand)
 
 
 ## Bize Destek Ol
