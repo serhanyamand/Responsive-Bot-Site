@@ -31,7 +31,7 @@ Basitçe Dosyaya Tıklayın ve Tarayıcıyla açın
 
 * Youtube: https://www.youtube.com/channel/UCYfguXG4mfgfmLhACJkVPlA
 * Website: https://beastprofile.tr.ht
-* Github: [@mitszy](https://github.com/serhanyamand)
+* Github: [@serhanyamand](https://github.com/serhanyamand)
 
 
 ## Bize Destek Ol
