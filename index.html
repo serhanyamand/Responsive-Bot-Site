@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Beast Bot</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+  </head>
+  <body class="has-background-black">
+    <section class="hero is-black is-fullheight">
+      <div class="hero-head">
+        <header class="navbar mt-4">
+          <div class="container">
+            <div class="navbar-brand">
+              <img src="./assets/logo.png" width="70" height="70" alt="Logo" />
+              <span
+                id="openMenu"
+                class="navbar-burger burger"
+                data-target="navbarMenuHeroC"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div
+              id="navbarMenuHeroC"
+              class="navbar-menu"
+              data-aos="fade-down"
+              data-aos-duration="2000"
+            >
+              <div class="navbar-end">
+                <a class="navbar-item is-active">Anasayfa</a> 
+                <a href="https://discord.com/invite/XK7fpk4DkG"class="navbar-item">Destek Sunucusu</a>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="hero-body">
+        <div
+          class="container has-text-left is-flex is-align-items-center is-flex-wrap-wrap is-justify-content-space-between container-res"
+        >
+          <div>
+            <h1 class="title">Beast Bot</h1>
+            <h2 class="subtitle">Kalite Tesadüf Değildir..</h2>
+            <a href="https://discord.com/oauth2/authorize?client_id=1036235063517532160&scope=bot&permissions=8">
+            <button class="button is-warning mr-2">Botu Davet Et</button>
+          </a>
+            <a href="https://discord.com/invite/XK7fpk4DkG">
+            <button class="button is-dark">Destek Sunucusu</button>
+          </a>
+          </div>
+          <img src="./assets/logo.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="container has-text-left is-flex is-align-items-center is-flex-wrap-wrap is-justify-content-space-between has-text-white py-6"
+      data-aos="fade-up"
+    >
+      <div class="margin-res">
+        <h1 class="is-size-1 has-text-weight-bold is-family-monospace">
+          Hizmetler
+        </h1>
+        <ul>
+          <li>
+            <b>Anons</b>
+            Kanal üzerinden herkese anons yaparak bilgilendirir.
+          </li>
+          <li>
+            <b>Çekiliş</b>
+            Bu kanalınızda çekiliş başlatmanızı sağlar.
+          </li>
+          <li>
+            <b>Çeviri</b>
+            Bir yazıyı başka bir dile çevirmenizi sağlar.
+          </li>
+          <li>
+            <b>Anket</b>
+            Bir anket başlatır
+          </li>
+          <li>
+            <b>Geri Sayım</b>
+            Senin için bir geri sayım başlatır.
+          </li>
+          <li>
+            <b>Davet Et</b>
+            Sunucunuz için sınırsız davet oluşturur.
+          </li>
+        </ul>
+      </div>
+      <img
+        class="commands"
+        src="./assets/commands/utility.png"
+        alt="Beast Bot - Komut Hizmetleri"
+      />
+    </div>
+
+    <div
+      class="container has-text-left is-flex is-align-items-center is-flex-wrap-wrap is-justify-content-space-between has-text-white py-6"
+      data-aos="fade-up"
+    >
+      <img
+        class="commands img-res"
+        src="./assets/commands/moderation.png"
+        alt="Beast Bot - Komut Hizmetleri"
+      />
+      <div class="margin-res">
+        <h1 class="is-size-1 has-text-weight-bold is-family-monospace">
+          Moderasyon
+        </h1>
+        <ul>
+          <li>
+            <b>Temizle</b>
+            Bahsettiğiniz miktarda mesajı siler.
+          </li>
+          <li>
+            <b>At</b>
+            Bahsettiğiniz kişiyi sunucudan atar.
+          </li>
+          <li>
+            <b>Yasakla</b>
+            Bahsettiğiniz kişiyi sunucudan yasaklar.
+          </li>
+          <li>
+            <b>Yasaklamayı Kaldır</b>
+            Bahsettiğiniz kişinin sunucudaki yasaklamasını kaldırır.
+          </li>
+          <li>
+            <b>Uyar</b>
+            Bahsettiğiniz kişiyi uyarır.
+          </li>
+          <li>
+            <b>Kanal Oluştur</b>
+            Kanal oluşturmanıza yardımcı olur.
+          </li>
+          <li>
+            <b>Kanal Sil</b>
+           Kanal silmenize yardımcı olur.
+          </li>
+          <li>
+            <b>Rol Ekle</b>
+            Rol eklemenize yardımcı olur.
+          </li>
+          <li>
+            <b>Rol Sil</b>
+            Rol silmenize yardımcı olur.
+          </li>
+        </ul>
+      </div>
+      <img
+        class="commands img-res-show"
+        src="./assets/commands/moderation.png"
+        alt="Beast Bot - Komut Hizmetleri"
+      />
+    </div>
+
+    <div
+      class="container has-text-left is-flex is-align-items-center is-flex-wrap-wrap is-justify-content-space-between has-text-white py-6"
+      data-aos="fade-up"
+    >
+      <div class="margin-res">
+        <h1 class="is-size-1 has-text-weight-bold is-family-monospace">Eğlence</h1>
+        <ul>
+          <li>
+            <b>Hackle</b>
+            Bahsettiğiniz kişiyi hackler.(gerçek hack değil).
+          </li>
+          <li>
+            <b>OWO</b>
+            Bu, metninizi dönüştürecek ve sevimli görünmesini sağlayacaktır.
+          </li>
+          <li>
+            <b>Meme</b>
+            Sana bir kaç meme gösterir.
+          </li>
+          <li>
+            <b>Söylet</b>
+            Bota istediğinizi söyletebilirsiniz.
+          </li>
+          <li>
+            <b>Tahmin Et</b>
+            Bot sorunuzun cevabını tahmin edecektir.
+          </li>
+          <li>
+            <b>Zarla</b>
+            Bot sizin için bir zar atar.
+          </li>
+          <li>
+            <b>Yazı Tura</b>
+            Bot sizin için bir yazı tura atar.
+          </li>
+          <li>
+            <b>Rastgele Sayı</b>
+            Bu sizin için bu 2 sayı arasından rastgele bir sayı seçecektir.
+          </li>
+        </ul>
+      </div>
+      <img
+        class="commands"
+        src="./assets/commands/fun.png"
+        alt="Beast Bot - Komut Hizmetleri"
+      />
+    </div>
+
+    <div
+      class="container has-text-left is-flex is-align-items-center is-flex-wrap-wrap is-justify-content-space-between has-text-white py-6"
+      data-aos="fade-up"
+    >
+      <img
+        class="commands img-res"
+        src="./assets/commands/image.png"
+        alt="Beast Bot - Komut Hizmetleri"
+      />
+      <div class="margin-res">
+        <h1 class="is-size-1 has-text-weight-bold is-family-monospace">
+          Görsel
+        </h1>
+        <ul>
+          <li>
+            <b>Kedi</b>
+            Bir kaç köpek resmi.
+          </li>
+          <li>
+            <b>Köpek</b>
+            Bir kaç köpek resmi.
+          </li>
+          <li>
+            <b>Yak</b>
+            SüngerBob o kullanıcıyı yakar. Kullanıcı için o7 
+          </li>
+          <li>
+            <b>Çöp</b>
+            Resimdeki bayan kullanıcının çöp olduğunu düşünüyor.
+          </li>
+          <li>
+            <b>Kızdır</b>
+            Kullanıcının karşısındakini kızdırmasını sağlar.
+          </li>
+          <li>
+            <b>Gerçekler</b>
+            Bu bir gerçek, en azından görsel bunu gösteriyor.
+          </li>
+          <li>
+            <b>Hastalık</b>
+            Resime göre hastılık tanımlama.
+          </li>
+          <li>
+            <b>ŞOK</b>
+            Birilerini şok et.
+          </li>
+          <li>
+            <b>Aranıyor</b>
+            İstediğiniz kullanıcıyı aranıyor olarak gösterir.
+          </li>
+          <li>
+            <b>Sarıl</b>
+            Küçücük bir sarılma bile gününüzü güzelleştirebilir.
+          </li>
+          <li>
+            <b>Anime</b>
+            Anime fotoları kesinlikle Rule34 değil.
+          </li>
+        </ul>
+      </div>
+      <img
+        class="commands img-res-show"
+        src="./assets/commands/image.png"
+        alt="Beast Bot - Komut Hizmetleri"
+      />
+    </div>
+
+    <div
+      class="container has-text-left is-flex is-align-items-center is-flex-wrap-wrap is-justify-content-space-between has-text-white py-6"
+      data-aos="fade-up"
+    >
+      <div class="margin-res">
+        <h1 class="is-size-1 has-text-weight-bold is-family-monospace">Bot</h1>
+        <ul>
+          <li>
+            <b>Prefix</b>
+            Sunucunun bot prefixini değiştirecektir.
+          </li>
+          <li>
+            <b>Davet Et</b>
+            Bu size botumuzu davet etmeniz için link gönderecektir.
+          </li>
+          <li>
+            <b>Discord</b>
+            Bu saana destek sunucusunun linkini atar.
+          </li>
+          <li>
+            <b>Bot Hakkında</b>
+            Sana bot hakkında herşeyi gösterir.
+          </li>
+          <li>
+            <b>Hata Raporla</b>
+            Bir hatamız varsa raporla.
+          </li>
+        </ul>
+      </div>
+      <img
+        class="commands"
+        src="./assets/commands/bot.png"
+        alt="Beast Bot - Komut Hizmetleri"
+      />
+    </div>
+
+    <div
+      class="container has-text-left is-flex is-align-items-center is-flex-wrap-wrap is-justify-content-space-between has-text-white py-6"
+      data-aos="fade-up"
+    >
+      <img
+        class="commands img-res"
+        src="./assets/commands/info.png"
+        alt="Beast Bot - Komut Hizmetleri"
+      />
+      <div class="margin-res">
+        <h1 class="is-size-1 has-text-weight-bold is-family-monospace">Hakkında</h1>
+        <ul>
+          <li>
+            <b>Covid-19</b>
+            Olduğun ülke hakkında Covid-19 vaka sayısını gösterir. 
+          </li>
+          <li>
+            <b>Kullanıcı Hakkında</b>
+            Sana istediğin kullanıcı hakkında bilgiler verir.
+          </li>
+          <li>
+            <b>Sunucu Hakkında</b>
+            Sana sunucu hakkında bilgi verir.
+          </li>
+          <li>
+            <b>Avatar</b>
+            Sana istediğin kullanıcının profil fotosunu verir.
+          </li>
+        </ul>
+      </div>
+      <img
+        class="commands img-res-show"
+        src="./assets/commands/info.png"
+        alt="Beast Bot - Komut Hizmetleri"
+      />
+    </div>
+
+    <div
+      class="container has-text-left is-flex is-align-items-center is-justify-content-space-between is-flex-direction-column has-text-white py-6"
+      data-aos="fade-up"
+    >
+      <h1 class="title is-1 has-text-white">İstatistikler</h1>
+      <div class="tile is-ancestor w-full">
+        <div class="tile is-parent">
+          <article class="tile is-child box has-background-black-ter">
+            <p class="title has-text-white">Kullanıcı</p>
+            <p class="subtitle has-text-warning">900</p>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box has-background-black-ter">
+            <p class="title has-text-white">Guilds</p>
+            <p class="subtitle has-text-warning">5</p>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box has-background-black-ter">
+            <p class="title has-text-white">Komutlar</p>
+            <p class="subtitle has-text-warning">300</p>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box has-background-black-ter">
+            <p class="title has-text-white">Diğer</p>
+            <p class="subtitle has-text-warning">5</p>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer has-background-black-ter has-text-white">
+      <div class="content has-text-centered">
+        <p>
+          
+          <strong class="has-text-white">Beast Code™️</strong>
+        </p>
+        <a href="https://discord.com/invite/XK7fpk4DkG">
+        <button class="button is-warning">Discord Sunucumuz</button>
+        </a>
+      </div>
+    </footer>
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
